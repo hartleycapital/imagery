@@ -1,0 +1,10 @@
+copyrightText = "COPYRIGHT 2026 Maxar Technologies. Use, duplication, distribution or disclosure by the user is subject to the restrictions set forth in the applicable license.";
+version = "29.9";
+BEGIN_GROUP = PRODUCT_1
+	XMLFilename = "21NOV26165427-P2AS-200014352434_01_P001.XML";
+	licenseTxtFilename = "license.txt";
+	IMFFilename = "21NOV26165427-P2AS-200014352434_01_P001.IMD";
+	tilFilename = "21NOV26165427-P2AS-200014352434_01_P001.TIL";
+	RPC00BFilename = "21NOV26165427-P2AS-200014352434_01_P001.RPB";
+END_GROUP = PRODUCT_1
+END;

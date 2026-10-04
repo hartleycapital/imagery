@@ -1,0 +1,133 @@
+version = "29.9";
+generationTime = 2026-09-26T16:23:07.000000Z;
+productOrderId = "200014423160_01_P001";
+productCatalogId = "None";
+imageDescriptor = "ORStandard2A";
+bandId = "P";
+panSharpenAlgorithm = "None";
+numRows = 5031;
+numColumns = 4831;
+productLevel = "LV2A";
+productType = "Standard";
+numberOfLooks = 1;
+radiometricLevel = "Corrected";
+radiometricEnhancement = "Off";
+bitsPerPixel = 16;
+compressionType = "DEFLATE";
+BEGIN_GROUP = BAND_P
+	ULLon =  -94.00426543;
+	ULLat =   30.00966461;
+	ULHAE =   -21.50;
+	URLon =  -93.97828612;
+	URLat =   30.00986028;
+	URHAE =   -21.50;
+	LRLon =  -93.97805519;
+	LRLat =   29.98631369;
+	LRHAE =   -21.50;
+	LLLon =  -94.00402837;
+	LLLat =   29.98611820;
+	LLHAE =   -21.50;
+	absCalFactor = 6.288518e-02;
+	effectiveBandwidth = 3.720000e-01;
+	TDILevel = 32;
+END_GROUP = BAND_P
+outputFormat = "GeoTIFF";
+BEGIN_GROUP = IMAGE_1
+	satId = "WV01";
+	mode = "FullSwath";
+	scanDirection = "Forward";
+	CatId = "1020010122228B00";
+	firstLineTime = 2026-04-06T19:57:40.276072Z;
+	avgLineRate = 23999.98;
+	exposureDuration = 0.000041667;
+	minCollectedRowGSD =   0.519;
+	maxCollectedRowGSD =   0.519;
+	meanCollectedRowGSD =   0.519;
+	minCollectedColGSD =   0.538;
+	maxCollectedColGSD =   0.538;
+	meanCollectedColGSD =   0.538;
+	meanCollectedGSD =   0.529;
+	rowUncertainty =    6.06;
+	colUncertainty =   24.03;
+	minSunAz = 230.2;
+	maxSunAz = 230.3;
+	meanSunAz = 230.2;
+	minSunEl =  57.1;
+	maxSunEl =  57.1;
+	meanSunEl =  57.1;
+	minSatAz =  84.4;
+	maxSatAz =  85.0;
+	meanSatAz =  84.8;
+	minSatEl =  74.5;
+	maxSatEl =  74.5;
+	meanSatEl =  74.5;
+	minInTrackViewAngle =   3.3;
+	maxInTrackViewAngle =   3.4;
+	meanInTrackViewAngle =   3.4;
+	minCrossTrackViewAngle =  14.0;
+	maxCrossTrackViewAngle =  14.0;
+	meanCrossTrackViewAngle =  14.0;
+	minOffNadirViewAngle =  14.4;
+	maxOffNadirViewAngle =  14.4;
+	meanOffNadirViewAngle =  14.4;
+	PNIIRS = 5.1;
+	cloudCover = 0.000;
+	resamplingKernel = "MTF";
+	positionKnowledgeSrc = "R";
+	attitudeKnowledgeSrc = "R";
+	revNumber = 3216;
+END_GROUP = IMAGE_1
+BEGIN_GROUP = MAP_PROJECTED_PRODUCT
+	earliestAcqTime = 2026-04-06T19:57:40.275467Z;
+	latestAcqTime = 2026-04-06T19:57:40.275467Z;
+	datumName = "WE";
+	semiMajorAxis = 6378137.0000;
+	inverseFlattening = 298.257223563;
+	datumOffset = (
+	     0.000,
+	     0.000,
+	     0.000 );
+	mapProjName = "UTM";
+	mapProjCode = 1;
+	mapZone = 15;
+	mapHemi = "N";
+	mapProjParam = (
+	  0.000000000,
+	  0.000000000,
+	  0.000000000,
+	  0.000000000,
+	  0.000000000,
+	  0.000000000,
+	  0.000000000,
+	  0.000000000,
+	  0.000000000,
+	  0.000000000,
+	  0.000000000,
+	  0.000000000,
+	  0.000000000,
+	  0.000000000,
+	  0.000000000 );
+	productUnits = "M";
+	originX =     403147.81368087;
+	originY =    3320280.82180819;
+	orientationAngle =    0.0;
+	colSpacing =  0.52;
+	rowSpacing =  0.52;
+	productGSD =  0.52;
+	ULX =     403147.81368087;
+	ULY =    3320280.82180819;
+	ULH =        -21.50;
+	URX =     405653.58870089;
+	URY =    3320280.82180819;
+	URH =        -21.50;
+	LRX =     405653.58870089;
+	LRY =    3317671.28798818;
+	LRH =        -21.50;
+	LLX =     403147.81368087;
+	LLY =    3317671.28798818;
+	LLH =        -21.50;
+	DEMCorrection = "Base Elevation";
+	terrainHae =  -21.50;
+	numGCP = 0;
+END_GROUP = MAP_PROJECTED_PRODUCT
+END;
